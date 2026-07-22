@@ -29,8 +29,6 @@ labs/lab-01-kubeadm/k8s-cluster-state.env.destroyed
 *.crt
 *.p12
 *.pfx
-.env
-.env.*
 !.env.example        # Allow a safe placeholder/example file if added later
 
 # -----------------------------------------------------------------------------
@@ -53,8 +51,6 @@ $RECYCLE.BIN/
 # -----------------------------------------------------------------------------
 # EDITOR & IDE
 # -----------------------------------------------------------------------------
-.vscode/settings.json
-.vscode/launch.json
 .idea/
 *.swp
 *.swo
@@ -73,3 +69,5 @@ $RECYCLE.BIN/
 # HELM (if added in future modules)
 # -----------------------------------------------------------------------------
 charts/*.tgz
+config.bat
+node_modules
